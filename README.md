@@ -60,7 +60,7 @@ This project provides an end-to-end market analysis of the **Amazon Top 100 Best
 ## 👥 Project Team — *Data Divas*
 
 * **Aya Ayman**
-* **Banan Mag**
+* **Banan Magdy**
 * **Habiba Wal**
 * **Mennatullah Huss**
 * **Mirna Elgho**
