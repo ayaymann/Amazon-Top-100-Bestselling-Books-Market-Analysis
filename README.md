@@ -1,31 +1,3 @@
-```python
-import pandas as pd
-
-excel_path = 'Data Diva Team (final).xlsx'
-df_books = pd.read_excel(excel_path, sheet_name='Books_Cleaned2')
-df_reviews = pd.read_excel(excel_path, sheet_name='Books_Reviews_Merged1')
-
-stats = {
-    'total_books': len(df_books),
-    'avg_price': round(df_books['Book Price'].mean(), 2),
-    'avg_rating': round(df_books['Rating'].mean(), 2),
-    'total_reviews': len(df_reviews),
-    'top_author': df_books['Author'].value_counts().idxmax(),
-    'top_author_count': int(df_books['Author'].value_counts().max()),
-    'price_tiers': df_books['Price Tier'].value_counts().to_dict(),
-    'top_genres': df_books['Genre'].value_counts().head(3).to_dict()
-}
-print(stats)
-
-
-```
-
-```text
-{'total_books': 100, 'avg_price': 12.71, 'avg_rating': 4.69, 'total_reviews': 921, 'top_author': 'Sarah J. Maas', 'top_author_count': 5, 'price_tiers': {'Moderate': 50, 'Budget': 45, 'Premium': 5}, 'top_genres': {'Nonfiction': 6, 'Childrens, literature': 5, 'Childrens': 4}}
-
-
-```
-
 # 📚 Amazon Top 100 Bestselling Books Analysis Dashboard
 
 ## 📌 Executive Summary
