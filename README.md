@@ -62,5 +62,5 @@ This project provides an end-to-end market analysis of the **Amazon Top 100 Best
 * **Aya Ayman**
 * **Banan Magdy**
 * **Habiba Wal**
-* **Mennatullah Huss**
+* **Mennatullah Hussein**
 * **Mirna Elgho**
